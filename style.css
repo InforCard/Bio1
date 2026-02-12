@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./img/trendy-background-ideas-cover.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.card{
+    width: 50%;
+    margin: 100px auto;
+}
+
+.avartar{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.information{
+    width: 100%;
+}
+
+
+
+.item-link button{
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 25px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.item-link img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
