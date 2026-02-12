@@ -8,7 +8,8 @@ body{
     background-image: url("./img/trendy-background-ideas-cover.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .card{
